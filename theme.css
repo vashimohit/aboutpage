@@ -1,4 +1,5 @@
 body {
+    background-color: red;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -10,6 +11,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+    a {
+    color:darkblue;
+    }
 
 .column {
   float: left;
@@ -21,13 +25,14 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  border: 3px solid black ;
 }
 
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
-  color: white;
+  background-color: black;
+  color: red;
 }
 
 .container {
@@ -41,7 +46,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color:black;
 }
 
 .button {
@@ -50,7 +55,7 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #000000;
   text-align: center;
   cursor: pointer;
   width: 100%;
